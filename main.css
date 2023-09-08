@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.all .navbar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.all .navbar .logo {
+  width: 20%;
+}
+.all .navbar ul {
+  display: flex;
+  list-style: none;
+  width: 50%;
+  justify-content: space-between;
+}
+.all .navbar ul li {
+  padding: 10px;
+  font-size: 16px;
+  color: #18191f;
+}
+.all .navbar .but {
+  width: 15%;
+}
+.all .navbar .but button {
+  box-shadow: 0px 0px 2px gray;
+  border-radius: 6px;
+  padding: 10px 20px;
+  background-color: white;
+  border: none;
+  margin-right: 10px;
+  color: #4caf4f;
+}
+.all .navbar .but .b2 {
+  background-color: #4caf4f;
+  color: white;
+  box-shadow: none;
+}
+.all .level1 {
+  display: flex;
+  justify-content: space-around;
+}
+.all .level1 .left {
+  width: 45%;
+  padding: 50px;
+}
+.all .level1 .left h1 {
+  padding-top: 60px;
+  font-size: 60px;
+  color: #4d4d4d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.all .level1 .left h1 span {
+  color: #4caf4f;
+}
+.all .level1 .left p {
+  padding-top: 20px;
+  font-size: 16px;
+  color: #717171;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.all .level1 .left button {
+  margin-top: 30px;
+  padding: 15px 50px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4caf4f;
+  color: white;
+}
+.all .level1 .right {
+  width: 40%;
+  padding: 50px;
+  padding-top: 80px;
+}
+.all .level2 h1 {
+  text-align: center;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4d4d4d;
+}
+.all .level2 p {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #717171;
+}
+.all .level2 .flex {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.all .level3 {
+  margin-top: 100px;
+}
+.all .level3 h1 {
+  width: 40%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin: auto;
+  text-align: center;
+  font-size: 35px;
+  color: #4d4d4d;
+  line-height: 44px;
+}
+.all .level3 p {
+  text-align: center;
+  font-size: 16px;
+  padding-top: 10px;
+  color: #717171;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.all .level3 .flex1 {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.all .level3 .flex1 .img {
+  width: 22%;
+  text-align: center;
+  box-shadow: 0px 0px 2px gray;
+  border-radius: 5px;
+  padding: 20px;
+}
+.all .level3 .flex1 .img h2 {
+  color: #4d4d4d;
+  padding-top: 20px;
+  font-size: 28px;
+  line-height: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+.all .level3 .flex1 .img p {
+  padding-top: 20px;
+  text-align: center;
+  line-height: 20px;
+  color: #717171;
+}
+.all .level4 {
+  margin-top: 100px;
+  display: flex;
+}
+.all .level4 .left {
+  padding-left: 50px;
+  width: 40%;
+}
+.all .level4 .right {
+  width: 50%;
+}
+.all .level4 .right h1 {
+  font-size: 36px;
+  line-height: 44px;
+  color: #4d4d4d;
+  padding-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.all .level4 .right p {
+  padding-top: 20px;
+  color: #717171;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 20px;
+}
+.all .level4 .right button {
+  margin-top: 30px;
+  padding: 15px 50px;
+  border: none;
+  background-color: #4caf4f;
+  color: white;
+  border-radius: 5px;
+}
+.all .level5 {
+  background-color: #f5f7fa;
+  display: flex;
+  justify-content: space-around;
+}
+.all .level5 .first {
+  width: 40%;
+  padding: 20px;
+}
+.all .level5 .first h1 {
+  padding-top: 50px;
+  font-size: 36px;
+  padding-left: 50px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4d4d4d;
+}
+.all .level5 .first h1 span {
+  color: #4caf4f;
+}
+.all .level5 .first P {
+  padding-top: 20px;
+  padding-left: 50px;
+  font-size: 16px;
+  color: #18191f;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.all .level5 .second {
+  width: 20%;
+  padding: 20px;
+}
+.all .level5 .second h1 {
+  padding-left: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #4d4d4d;
+}
+.all .level5 .second p {
+  padding-left: 60px;
+  padding-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #717171;
+}
+.all .level5 .second i {
+  font-size: 40px;
+  position: relative;
+  top: 45px;
+  color: #4caf4f;
+}
+.all .level7 {
+  margin-top: 50px;
+  background-color: #f5f7fa;
+  display: flex;
+  padding: 20px;
+  justify-content: space-evenly;
+}
+.all .level7 .left {
+  width: 30%;
+}
+.all .level7 .right {
+  width: 60%;
+}
+.all .level7 .right p {
+  padding-top: 10px;
+  font-size: 16px;
+  color: #717171;
+  font-weight: 500;
+  line-height: 24px;
+}
+.all .level7 .right h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  color: #4caf4f;
+}
+.all .level7 .right img {
+  padding-top: 50px;
+}
+.all .level7 .right span {
+  position: relative;
+  left: 50px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: #4caf4f;
+  top: -20px;
+}
+.all .level8 {
+  margin-top: 50px;
+}
+.all .level8 h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #4d4d4d;
+  text-align: center;
+}
+.all .level8 p {
+  font-size: 16px;
+  text-align: center;
+  width: 50%;
+  padding-top: 10px;
+  line-height: 22px;
+  color: #717171;
+  margin: auto;
+}
+.all .level8 .flex8 {
+  display: flex;
+  justify-content: space-around;
+}
+.all .level8 .flex8 .surat {
+  margin-top: 50px;
+  width: 25%;
+}
+.all .level8 .flex8 .surat img {
+  width: 100%;
+}
+.all .level8 .flex8 .surat .safed {
+  background-color: #F5F7FA;
+  width: 70%;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  top: -70px;
+  left: 30px;
+}
+.all .level8 .flex8 .surat .safed h2 {
+  font-size: 20px;
+  text-align: center;
+  color: #717171;
+  line-height: 28px;
+}
+.all .level8 .flex8 .surat .safed p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #4caf4f;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.all .footer {
+  background-color: #F5F7FA;
+  text-align: center;
+  padding: 50px;
+}
+.all .footer h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+}
+.all .footer button {
+  margin-top: 30px;
+  font-size: 16px;
+  background-color: #4caf4f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 15px 30px;
+}
+.all .footer button i {
+  padding-left: 10px;
+}
+.all .footer2 {
+  background-color: #263238;
+  display: flex;
+  padding: 50px;
+  justify-content: space-around;
+  color: white;
+  padding-right: 7%;
+}
+.all .footer2 h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.all .footer2 p {
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.all .footer2 .second {
+  width: 20%;
+}
+.all .footer2 .first {
+  width: 40%;
+}
+.all .footer2 .first p {
+  padding-top: 40px;
+}
+.all .footer2 .first i {
+  margin-top: 50px;
+  margin-right: 10px;
+  padding: 7px;
+  font-size: 20px;
+  background-color: gray;
+  border-radius: 50px;
+}
+.all .footer2 .h1 {
+  padding-top: 50px;
+}
+.all .footer2 input {
+  opacity: 20%;
+  padding: 10px 20px;
+  border-radius: 7px;
+  margin-top: 30px;
+  border: none;
+}
+.all .footer2 #i {
+  position: relative;
+  left: -40px;
+}/*# sourceMappingURL=main.css.map */
